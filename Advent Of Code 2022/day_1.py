@@ -1,0 +1,1 @@
+with open('day_1', 'r') as f: print(max([sum((map(int, i.split(' ')))) for i in ''.join(f.readlines()).replace('\n', ' ').split('  ')]))
